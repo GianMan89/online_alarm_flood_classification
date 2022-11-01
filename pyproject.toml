@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "online-alarm-flood-classification"
+version = "0.1.0"
+description = ""
+authors = ["Gianluca Manca <gianluca.manca89@gmail.com>"]
+readme = "README.md"
+packages = [{include = "online_alarm_flood_classification"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.5.1"
+numpy = ">=1.21.0,<1.23"
+sktime = "^0.13.4"
+black = "^22.10.0"
+ipykernel = "^6.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
